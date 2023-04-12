@@ -1,6 +1,8 @@
 # Nome da Actions:  
 name: Snake Game
-
+#Utilizando a versão 16 do node
+runs:
+  using: 'node16'
 # Controlador do tempo que sera feito a atualização dos arquivos.
 on:
   schedule:
