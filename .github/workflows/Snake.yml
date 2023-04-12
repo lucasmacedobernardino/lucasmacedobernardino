@@ -1,8 +1,5 @@
 # Nome da Actions:  
 name: Snake Game
-#Utilizando a versão 16 do node
-runs:
-  using: 'node16'
 # Controlador do tempo que sera feito a atualização dos arquivos.
 on:
   schedule:
@@ -20,6 +17,9 @@ jobs:
 
     # Checks repo under $GITHUB_WORKSHOP, so your job can access it
       - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        
+            
 
     # Repositorio que será utilizado para gerar os arquivos.
       - uses: Platane/snk@master
