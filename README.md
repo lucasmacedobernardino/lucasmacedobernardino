@@ -34,4 +34,4 @@
 <!-- GitHub Readme Stats   https://github.com/anuraghazra/github-readme-stats -->
 <!-- icons  https://devicon.dev/  -->
 <!-- shilds https://shields.io/   -->
-![snake gif](https://github.com/lucasmacedobernardino/lucasmacedobernardino/blob/output/github-contribution-grid-snake.svg)
+
